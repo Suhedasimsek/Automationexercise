@@ -23,6 +23,7 @@ public class Login_Page {
         this.loggedInAsInfo = page.locator("header .shop-menu a:has(i.fa-user):has-text('Logged in as')");
     }
 
+    
     public void clickSignupLoginLink() {
         WebActions.waitUntilElementDisplayed(signupLoginLink, 1);
         signupLoginLink.scrollIntoViewIfNeeded();
